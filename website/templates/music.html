@@ -1,0 +1,157 @@
+{% load static %}
+
+
+<html>
+
+<head>
+  <title>Music by Monkey Parliament</title>
+  <meta name="description" content="Music made by Monkey Parliament. Listen to the latest release and explore the catelogue.">
+  <meta name="viewport" content="width=device-width,initial-scale=.5">
+
+  <!-- minified CSS Bootstrap-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <!-- minified JavaScript Bootstrap-->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <!-- define fonts -->
+  <link rel="stylesheet" href="{% static 'css/anton.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+  <!-- add  slider -->
+
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/sss.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'css/sss.css' %}" type="text/css" media="all">
+
+
+
+
+</head>
+
+<body class="body-pages">
+  <div class="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="menu-pages">
+            <!-- Menu -->
+            <li class="menu-elements-home"><a href="{% url 'music' %}" class="menu-text">Music</a></li>
+            <li class="menu-elements-home"><a href="{% url 'visuals' %}" class="menu-text">Visuals</a></li>
+            <li class="menu-elements-home"><a href="{% url 'about' %}" class="menu-text">About</a></li>
+            <li class="menu-elements-home"><a href="{% url 'contact' %}" class="menu-text">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Header met titel en highlighted Youtube video -->
+    <div class="header whitebackground">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <h1> Latest release </h1>
+            <div class="center">
+              <iframe width="672" height="378" src="https://www.youtube.com/embed/39nCt23z5Ao" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+              <!-- Informatie onder de video -->
+              <p class="blacktext">
+                The latest addition to the Revelations EP is Mr Thavörckog's Legacy. The tune started with the urge to create a story in music. While most of my tunes start with a particular image or setting in mind, this tune focuses on providing the listener with a
+                complete story. The tale of the tune starts in a wintry, nordic landscape. The listener hears some workersongs in the distance, while entering the workshop of the late Mr Thavörckog's. Once inside, the magical but decayed workshop turns
+                against the intruder. Through the story, tension and release are alternated, leading to the final escape out of the damned place. The visuals accompanying the music are a display of the enchanted industrial legacy of Mr Thavörckog.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="container-padding">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Catalogue</h2>
+        </div>
+      </div>
+
+      <div class="sliderMusic container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="center playlistCenter">
+              <iframe width="560" height="325" src="https://www.youtube.com/embed/videoseries?list=PLqEWTmbtCEmmKO-jvPmasr6VlKm7mxFjS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Revelations</h3>
+
+            <p class="leftText">The progress I made by creating live visuals and by practicing animations provided a good starting point for the Revelations EP. Confident that I could make longer sequences the idea of an EP started to form. I wanted to bring an experience
+              that was both visually and musically. The four songs on the EP are connected by establishing a complete experience, which means the video tries to convey the same feeling as the music. At the moment two songs are finished, namely Momijigari
+              and Mr Thavörckog's Legacy. Since creating animations can take a while, the completion date of the project is unknown, but keep an eye on my Facebook page or Youtube channel when or if they will be released.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="center playlistCenter">
+              <iframe width="560" height="325" src="https://www.youtube.com/embed/videoseries?list=PLqEWTmbtCEmnGhrusmRaUmNk4BWmnWDka" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Supertheory Of Nothing</h3>
+            <p class="leftText">Supertheory Of Nothing is my first album. Unbounded to a specific style, the album consists of 11 tracks. The variety in styles on the album supports the notion of a supertheory, in an attempt to cover the genres I’m most interested in. Several
+              elements, like percussion, piano, plucks and samples from scientific sources or videos are used as the connection between the tracks. Ironically the connection is thin, which results in a theory of nothing. While the titles of the songs
+              mostly refer to scientific theories, the album title refers to the failure to create a absolute theory by combining all these elements.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="center playlistCenter">
+              <iframe width="560" height="325" src="https://www.youtube.com/embed/videoseries?list=PLqEWTmbtCEmn4L1EQDN1owbVtH8Idbv8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>The Overworked System</h3>
+            <p class="leftText">After a year of producing separate songs and releasing these through my Youtube channel, I felt the urge to create related tracks. The general idea driving the production of these tracks comes from the book by Daniel Kahneman; Thinking, Fast
+              and Slow. The brilliant psychologist proposes two theoretical systems, which we can distinguish in the human brain. System 1 is fast, instinctive and emotional, while System 2 is slower, more deliberative, and more logical. In the EP The
+              Overworked System five tracks explore the combined system starting up, overworking, collapsing and trying to restart. The bonus track, Akrasia, is the retrospection which is needed to prevent the system from making the same mistakes over
+              and over again.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="center playlistCenter">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Q_D-vtNsHYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+          </div>
+          <div class="col-md-6">
+            <h3>More music</h3>
+            <div style="padding-bottom: 180px;">
+              <p class="leftText">For more music and visuals please visit my YouTube channel, which features over 50 tracks and other content.
+                </br>
+                </br>
+                The laidback song on the left is Balloon Animals, This creation embodies the chill vibes of a reggae song to drift away to if you are lying down in the grass.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script>
+      jQuery(function($) {
+        $('.sliderMusic').sss({
+            slideShow: false,
+            startOn: 0,
+            transition: 600,
+            showNav: true,
+          }
+
+        );
+      });
+    </script>
+
+
+
+</body>
+
+</html>

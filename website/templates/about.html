@@ -1,0 +1,111 @@
+{% load static %}
+
+
+<html>
+
+<head>
+  <title>About Monkey Parliament</title>
+  <meta name="description" content="Read about the history of the project. Please consider doing a donation if you enjoy the content.">
+  <meta name="viewport" content="width=device-width,initial-scale=.5">
+
+  <!-- minified CSS Bootstrap-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <!-- minified JavaScript Bootstrap-->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <!-- define fonts -->
+  <link rel="stylesheet" href="{% static 'css/anton.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body class="body-pages">
+  <div class="main-content">
+  <div class="container">
+
+    <!-- menu -->
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="menu-pages">
+          <!-- Menu -->
+          <li class="menu-elements-home"><a href="{% url 'music' %}" class="menu-text">Music</a></li>
+          <li class="menu-elements-home"><a href="{% url 'visuals' %}" class="menu-text">Visuals</a></li>
+          <li class="menu-elements-home"><a href="{% url 'about' %}" class="menu-text">About</a></li>
+          <li class="menu-elements-home"><a href="{% url 'contact' %}" class="menu-text">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- Header met titel en highlighted Youtube video -->
+  <div class="header whitebackground">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <h1 class="headingPadding"> About the project </h1>
+          <div>
+            <!-- Informatie onder de video -->
+            <p class="blacktext">
+              Monkey Parliament is a project started 8 years ago by me, Dennis Verstappen. After playing guitar for years, I discovered that I also could make music by means of a computer. I started with in-the-box synthesizers and samplers inside several DAWs to create
+              songs instead of only guitar riffs and partitions. Quickly, the guitar became just an instrument which I sometimes featured in my tunes while composing electronic music took over. The urge to get all of my musical ideas out of my head and
+              into my computer resulted in more than 50 releases through YouTube and countless ideas still floating around on my hard disk. Furthermore, the project resulted in several collaborations with producers, singers and musicians.
+              </br>
+              </br>
+              Art, visuals and movies have been a huge inspiration for ideas and compositions. To support the music releases, imagery and visuals were created that resembled the atmosphere of the tunes. Although, creation of these visuals take even more time than composing
+              music, they became an equally important part of the project. The interest in combining visuals with music resulted in several live visual sets.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 	      <div class="container" id="container-padding">
+     <div class="row">
+       <div class="col-md-12 headingPadding">
+         <h2>Support</h2>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-6">
+         <div class="center donatePadding">
+           <img src="{% static 'css\images\donate.png' %}" alt="donate" class="donateIcon"/>
+
+         </div>
+       </div>
+       <div class="col-md-6 centerDonate">
+         <p>
+               Music and visuals made by Monkey Parliament are free to listen to and free to use. To support the project and the artist please consider doing a donation to:
+             </p>
+
+             <ul class="verticalCenterText">
+               <li class="itemDonate">
+                 <p>BTC: 15CXZPhnr5dkcDu5pKqD9rLBoHJjFMvkae</p>
+               </li>
+               <li class="itemDonate">
+                 <p>ETH: 0xbEe81d3b38E9a0c74C314c95dCa4DA06bc6d97d0</p>
+               </li>
+               <li class="itemDonate">
+                 <p>LTC: LUxGTcbLjVYNHhujwjkRhpoLmsj4L2E8GH</p>
+               </li>
+               <li class="itemDonate">
+                 <p>BAT: 0xbEe81d3b38E9a0c74C314c95dCa4DA06bc6d97d0</p>
+               </li>
+               <li class="itemDonate">
+                 <p>KMD: RGpr1BULrwgeGe3GHFtcCswEY5WFjkxfew</p>
+               </li>
+             </ul>
+             <p>
+               Easiest and most safe way to get your crypto is by using <a href="https://www.coinbase.com/join/59fccddef8554701200db931" class="link">Coinbase</a>
+             </p>
+           </div>
+       </div>
+     </div>
+   </div>
+   </div>
+</body>
+
+</html>

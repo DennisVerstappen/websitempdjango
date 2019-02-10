@@ -1,0 +1,77 @@
+{% load static %}
+
+
+<html>
+
+<head>
+  <title>Contact Monkey Parliament</title>
+  <meta name="description" content="Contact Monkey Parliament through one of the mentioned channels.">
+  <meta name="viewport" content="width=device-width,initial-scale=.5">
+
+  <!-- minified CSS Bootstrap-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <!-- minified JavaScript Bootstrap-->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <!-- define fonts -->
+  <link rel="stylesheet" href="{% static 'css/anton.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body class="body-pages">
+  <div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="menu-pages">
+          <!-- Menu -->
+          <li class="menu-elements-home"><a href="{% url 'music' %}" class="menu-text">Music</a></li>
+          <li class="menu-elements-home"><a href="{% url 'visuals' %}" class="menu-text">Visuals</a></li>
+          <li class="menu-elements-home"><a href="{% url 'about' %}" class="menu-text">About</a></li>
+          <li class="menu-elements-home"><a href="{% url 'contact' %}" class="menu-text">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Header met titel en plaatje -->
+  <div class="header whitebackground">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1> Contact </h1>
+          <div class="center contactIntro">
+
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="center">
+                <img src="{% static 'css\images\mplogoblackgdn2.png' %}" alt="Monkey Parliament Logo" class="contactLogo"/>
+              </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+
+            <div class="col-md-4 col-xs-12 sizeTextFrame">
+              <div class="centerContact">
+                <div><a href="https://www.youtube.com/user/Dennssss" class="contacttext" target="_blank"><img src="{% static 'css\images\youtube.jpg' %}" alt="Youtube" class="contactIcon"/><p class="contacttext">Dennsss</p></a></div>
+                <div><a href="https://www.facebook.com/MonkeyParliament/ " class="contacttext" target="_blank"><img src="{% static 'css\images\facebook.jpg' %}" alt="Facebook" class="contactIcon"/><p class="contacttext">MonkeyParliament</p></a></div>
+                <div><a href="https://soundcloud.com/monkey-parliament" class="contacttext" target="_blank"><img src="{% static 'css\images\soundcloud.jpg' %}" alt="Soundcloud" class="contactIcon"/><p class="contacttext">monkey-parliament</p></a></div>
+                <div><a href="https://monkeyparliament.bandcamp.com/" class="contacttext" target="_blank"><img src="{% static 'css\images\bandcamp.jpg' %}" alt="Bandcamp" class="contactIcon"/><p class="contacttext">monkeyparliament</p></a></div>
+                <div><a href="mailto:" class="contacttext" target="_blank"><img src="{% static 'css\images\email.jpg' %}" alt="Soundcloud" class="contactIcon"/><p class="contacttext contacttextSmall">monkeyparliament@gmail.com</p></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+{% load static %}
+
+
+<html>
+
+<head>
+  <title>Visuals by Monkey Parliament</title>
+  <meta name="description" content="Visuals created by Monkey Parliament. Read about the creation process and view a variety of visuals.">
+  <meta name="viewport" content="width=device-width,initial-scale=.5">
+
+  <!-- minified CSS Bootstrap-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <!-- minified JavaScript Bootstrap-->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <!-- define fonts -->
+  <link rel="stylesheet" href="{% static 'css/anton.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  <!-- add fancy box -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.fancybox.min.css' %}">
+
+  <!-- add fancy box JavaScript -->
+  <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+
+
+</head>
+
+<body class="body-pages">
+  <div class="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="menu-pages">
+            <!-- Menu -->
+            <li class="menu-elements-home"><a href="{% url 'music' %}" class="menu-text">Music</a></li>
+            <li class="menu-elements-home"><a href="{% url 'visuals' %}" class="menu-text">Visuals</a></li>
+            <li class="menu-elements-home"><a href="{% url 'about' %}" class="menu-text">About</a></li>
+            <li class="menu-elements-home"><a href="{% url 'contact' %}" class="menu-text">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Header met titel en plaatje -->
+    <div class="header whitebackground">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="headingPadding"> Visuals </h1>
+            <div class="center contactIntro">
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="center">
+                    <img src="{% static 'css\images\ssw_party_1.jpg' %}" alt="Live visuals at SSW Party" class="liveVisual" />
+                  </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-6 sizeTextFrame">
+                  <p class="blacktext">
+                    My music was mostly inspired by movies, art or some kind of imagery. To convey the feeling to the listener of the music, I made images that could serve as backgrounds for my YouTube uploads. After a while I thought still images were a bit boring and I
+                    wanted to create some animations to accompany the music and enhance the listening experience. This resulted in several attempts to create a audio reactor, a video that reacts to music. After learning more about creating these videos,
+                    the next logical step was animating whole sequences. This progress is captured in the Revelations EP.
+                    <br/><br/> Armed with the knowledge I gained about animations and videos I started doing these live at parties. At these events I trigger visuals on the fly as a reaction to the music the DJ plays. Also, I provide parties with custom
+                    visuals which can play on loop so the background on the stage or some place else in the venue is filled up.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row galleryRow">
+      <div class="col-md-12">
+        <h2>Gallery</h2>
+      </div>
+      <div class="col-md-12">
+        <p class="subtitle">
+          Click on an image or video for more information
+        </p>
+      </div>
+
+      <!-- Video row -->
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="https://www.youtube.com/embed/39nCt23z5Ao" data-caption="Music video for Mr Thavörckog's Legacy"><img class="galleryPicture" src="{% static 'css\images\thavorcog_picture.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="https://www.youtube.com/embed/DOpJalRO68U" data-caption="Music video for Momijigari"><img class="galleryPicture" src="{% static 'css\images\momijigari_picture.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="https://www.youtube.com/embed/qfTmUuuN7sc" data-caption="Black and white displacement animation"><img class="galleryPicture" src="{% static 'css\images\black_white_displacement.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="https://www.youtube.com/embed/tF7y2kuIEgw" data-caption="Polygon audio reactor made in Cinema 4D"><img class="galleryPicture" src="{% static 'css\images\polygon_audio_reactor.jpg' %}"></a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- picture row 1 -->
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\Revalations_EP2.jpg' %}" data-caption="Cover art for the Revelations EP"><img class="galleryPicture" src="{% static 'css\images\Revalations_EP2.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\SupertheoryOfNothingWallpaperBlack.jpg' %}" data-caption="Wallpaper (Black version) for Supertheory Of Nothing album"><img class="galleryPicture" src="{% static 'css\images\SupertheoryOfNothingWallpaperBlack.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\SupertheoryOfNothingWallpaperWhite.jpg' %}" data-caption="Wallpaper (White version) for Supertheory Of Nothing album"><img class="galleryPicture" src="{% static 'css\images\SupertheoryOfNothingWallpaperWhite.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\MP-Logo-blackbackground.jpg' %}" data-caption="Monkey Parliament logo"><img class="galleryPicture" src="{% static 'css\images\MP-Logo-blackbackground.jpg' %}"></a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- picture row 2 -->
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\ssw_feest_swinging_seventies.jpg' %}" data-caption="Photo made during Swinging Seventies party. Live visuals during the evening were done by me. The visual in the photo was costum made for the party."><img class="galleryPicture" src="{% static 'css\images\ssw_feest_swinging_seventies.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\CartoonLogo2.jpg' %}" data-caption="Logo and text for the song Balloon Animals"><img class="galleryPicture" src="{% static 'css\images\CartoonLogo2.jpg' %}"></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\The_Overworked_System.jpg' %}" data-caption="Cover art for The Overworked System EP"><img class="galleryPicture" src="{% static 'css\images\The_Overworked_System.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\Monkey_Parliament_old.jpg' %}" data-caption="First logo made for Monkey Parliament"><img class="galleryPicture" src="{% static 'css\images\Monkey_Parliament_old.jpg' %}"></a>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- picture 4:3 -->
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\momijigari_sketch_1.jpg' %}" data-caption="Sketch for the Momijigari music video. Object rendered with Cinema 4D."><img class="galleryPicture" src="{% static 'css\images\momijigari_sketch_1.jpg' %}"></a>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-12">
+          <div class="center">
+            <a data-fancybox="gallery" href="{% static 'css\images\momijigari_sketch_2.jpg' %}" data-caption="Sketch for the Momijigari music video. Object rendered with Cinema 4D."><img class="galleryPicture" src="{% static 'css\images\momijigari_sketch_2.jpg' %}"></a>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+{% load static %}
+
+<html>
+
+<head>
+  <title>Homepage Monkey Parliament</title>
+  <meta name="description" content="Homepage for Monkey Parliament.">
+  <meta name="viewport" content="width=device-width,initial-scale=.5">
+  <!-- Latest compiled and minified CSS -->
+  <!-- minified CSS Bootstrap-->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <!-- minified JavaScript Bootstrap-->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <!-- define fonts -->
+  <link rel="stylesheet" href="{% static 'css/anton.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body class="body-home">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="menu-home">
+        <!-- Menu -->
+        <li class="menu-elements-home"><a href="{% url 'music' %}" class="menu-text">Music</a></li>
+        <li class="menu-elements-home"><a href="{% url 'visuals' %}" class="menu-text">Visuals</a></li> defe
+        <li class="menu-elements-home"><a href="{% url 'about' %}" class="menu-text">About</a></li>
+        <li class="menu-elements-home"><a href="{% url 'contact' %}" class="menu-text">Contact</a></li>
+      </ul>
+      <div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="icons-home">
+        <!-- Menu -->
+        <li class="icon-elements-home"><a href="https://www.youtube.com/user/Dennssss" target="_blank" class="iconLink"><img src="{% static 'css\images\youtube-home.png' %}" alt="Youtube" class="homeIcon iconLink"/></a></li>
+        <li class="icon-elements-home"><a href="https://www.facebook.com/MonkeyParliament/" target="_blank" class="iconLink"><img src="{% static 'css\images\facebook-home.png' %}" alt="Facebook" class="homeIcon iconLink"/></a></li>
+        <li class="icon-elements-home"><a href="https://soundcloud.com/monkey-parliament"  target="_blank" class="iconLink"><img src="{% static 'css\images\soundcloud-home.png' %}" alt="Soundcloud" class="homeIcon iconLink"/></a></li>
+      </ul>
+      <div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
