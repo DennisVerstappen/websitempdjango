@@ -1,7 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f380f3c7-724f-4dbb-9b77-7161d59b31c3" name="Default" comment="" />
+    <list default="true" id="f380f3c7-724f-4dbb-9b77-7161d59b31c3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/anton.22c732f976db.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/anton.22c732f976db.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/anton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/anton.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/bootstrap.min.5c7070ef655a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/bootstrap.min.5c7070ef655a.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/bootstrap.min.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/bootstrap.min.ec3bb52a00e1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoBlack.7e0be9532686.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoBlack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoLarge.0375dca33216.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoLarge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoMedium.ba7e0d7c7e13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoMedium.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoSmall.571d99f626d5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsAndLogoSmall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsLarge.73fa58ca71af.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsLarge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsMedium.0413be685b6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsMedium.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsSmall.226010df2bb0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/BlackStarsSmall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/CartoonLogo2.05ab18f33f33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/CartoonLogo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/MP-Logo-blackbackground.11b4c78d9473.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/MP-Logo-blackbackground.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/MP-logo-White.87217fa04ce8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/MP-logo-White.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/Monkey_Parliament_old.7ab641e44fc7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/Monkey_Parliament_old.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/Revalations_EP2.c393ae23e240.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/Revalations_EP2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/SupertheoryOfNothingWallpaperBlack.883bc0100cfd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/SupertheoryOfNothingWallpaperBlack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/SupertheoryOfNothingWallpaperWhite.7466be778190.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/SupertheoryOfNothingWallpaperWhite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/The_Overworked_System.05cf26906575.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/The_Overworked_System.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/arr3.87e1ba2ff5da.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/arr3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/bandcamp.39421adaafae.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/bandcamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/black_white_displacement.1fd275e98182.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/black_white_displacement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/concretewall.2bbda78d75fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/concretewall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/donate.f44b01595f70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/donate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/email.9666e8e28bde.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/email.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/facebook-home.6b089e76a2f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/facebook-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/facebook.f8785b5946dc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/facebook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_picture.e4a4c48b52a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_picture.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_sketch_1.8af611a9f32b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_sketch_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_sketch_2.fba4e03ce8d0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/momijigari_sketch_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblack.aea19593a3ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblackgdn.d8d024ad6e92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblackgdn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblackgdn2.11421d46bea7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/mplogoblackgdn2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/polygon_audio_reactor.f29bd8dee214.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/polygon_audio_reactor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/soundcloud-home.0328dafdba01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/soundcloud-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/soundcloud.d4ce462e8baa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/soundcloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/ssw_feest_swinging_seventies.a1f6cf2478d8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/ssw_feest_swinging_seventies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/ssw_party_1.748f32758265.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/ssw_party_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/thavorcog_picture.f7b7bf83dacf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/thavorcog_picture.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube-home.0c9fab6ff878.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.4805cbe3708c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.f75bf084b4d3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.f75bf084b4d3.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/images/youtube.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/jquery.fancybox.min.a2d42584292f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/jquery.fancybox.min.a2d42584292f.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/jquery.fancybox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/jquery.fancybox.min.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/sss.77cae42b7e80.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/sss.77cae42b7e80.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/sss.affc8a788ac7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/sss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/sss.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/style.7541d2ab69d9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/style.7541d2ab69d9.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/style.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/css/style.d74859c7ddbf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.448c34a56d69.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.89889688147b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.89889688147b.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.e18bbf611f2a.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.f4769f9bdb74.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.fa2772327f55.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/bootstrap.min.5869c96cc8f1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/bootstrap.min.5869c96cc8f1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/bootstrap.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery-3.2.1.min.c9f5aeeca3ad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery-3.2.1.min.c9f5aeeca3ad.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery-3.2.1.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.fancybox.min.3bdfcef62390.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.fancybox.min.3bdfcef62390.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.fancybox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.fancybox.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.min.0652da382b6f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.min.0652da382b6f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/jquery.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/sss.min.255eb8620e26.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/sss.min.255eb8620e26.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/sss.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/website/static/js/sss.min.js.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websitemp/settings.py" afterPath="$PROJECT_DIR$/websitemp/settings.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/websitemp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -38,7 +175,7 @@
         <entry file="file://$PROJECT_DIR$/website/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
-              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -47,8 +184,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/websitemp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="148" column="34" lean-forward="true" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+            <state relative-caret-position="553">
+              <caret line="157" column="17" lean-forward="true" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -202,7 +339,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="921" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="921" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -264,7 +401,7 @@
     <entry file="file://$PROJECT_DIR$/websitemp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
@@ -282,15 +419,15 @@
     <entry file="file://$PROJECT_DIR$/website/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/websitemp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="148" column="34" lean-forward="true" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+        <state relative-caret-position="553">
+          <caret line="157" column="17" lean-forward="true" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
           <folding />
         </state>
       </provider>
